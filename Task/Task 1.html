@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+
+        const Book = {
+            Name: "To Kill a Mockingbird",
+            Ganre: "Southern Gothic",
+            Author: "Harper Lee",
+            Year: 1960
+        };
+
+        const StyleObj = {
+            color:'red', 
+            fontFamily:'Verdana',
+            backgroundColor: 'yellow'
+        };
+
+        ReactDOM.createRoot(document.querySelector(".app"))
+            .render(
+                <div style={StyleObj}>  
+                    <p>Name - {Book.Name}</p>
+                    <p>Ganre - {Book.Ganre}</p>
+                    <p>Author - {Book.Author}</p>
+                    <p>Year - {Book.Year}</p>
+                </div>
+            );
+
+    </script>
+</body>
+</html>
