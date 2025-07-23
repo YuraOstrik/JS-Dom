@@ -1,0 +1,15 @@
+.product-page {
+  padding: 40px;
+}
+
+.product-page img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.product-page a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #0077cc;
+  text-decoration: none;
+}

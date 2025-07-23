@@ -1,0 +1,9 @@
+.home {
+  padding: 40px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

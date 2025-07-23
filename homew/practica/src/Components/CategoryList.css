@@ -1,0 +1,15 @@
+.categories {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.cat-link {
+  padding: 6px 12px;
+  border: 1px solid gray;
+  background-color: rgb(30, 61, 3);
+  border-radius: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}

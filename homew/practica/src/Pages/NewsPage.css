@@ -1,0 +1,10 @@
+.news-page {
+  padding: 40px;
+}
+
+.news-page a {
+  text-decoration: none;
+  color: #0077cc;
+  display: inline-block;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+.category {
+  padding: 30px;
+}
+
+.items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category a {
+  margin-bottom: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: blue;
+}
